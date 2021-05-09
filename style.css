@@ -1,0 +1,348 @@
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.header > a > img{
+    max-width: 220px;
+    height: 40px;
+}
+.header-link{
+    width: 319px;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-link li a{
+    color: #3F5D45;
+}
+.banner{
+    margin-bottom: 60px;
+}
+.content-box{
+    display: flex;
+}
+
+.menu li a{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+}
+.bgc1{
+    background-color: #3F5D45;
+    color: white;
+}
+.bgc2{
+    background-color: rgb(234, 240, 237);
+    color: #3F5D45;
+}
+.bgc3{
+    background-color: white;
+    color: #3F5D45;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    padding-bottom: 150px;
+}
+.item{
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.slogan{
+    background-color: #3F5D45;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding: 10px;
+}
+.item-name{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #3F5D45;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.margleft-33{
+    margin-left: 33px;
+}
+.margright-20{
+    margin-right: 20px;
+}
+.shoppingcart-btn {
+    background-color: rgb(234, 240, 237);
+    display: block;
+    padding: 16px 90px 16px 90px;
+    text-decoration: none;
+    color: #3F5D45;
+    font-size: 24px;
+    border: none;
+}
+.marg-bt0{
+    margin-bottom: 0;
+}
+.page ul{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    right: 0;
+    bottom: 60px;
+}
+.page ul li a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    box-sizing: border-box;
+    padding: 0 24px ;
+    border: 1px solid black;
+    font-size: 20px;
+    color: #3F5D45;
+}
+.page li  a.select{
+    color: white;
+    background-color: #3F5D45;
+}
+.icon1{
+    background: url('./images/arrow_left.png') no-repeat center;
+}
+.icon2{
+    background: url('./images/arrow_right.png') no-repeat center;
+}
+.subscribe-box{
+    width: 100%;
+    background-color: #3F5D45;
+}
+.subscribe{
+    max-width: 780px;
+    margin: 0 auto;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-email{
+    max-width: 276px;
+}
+
+.subscribe img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.subscribe-email{
+    font-size: 24px;
+    line-height: 40px;
+    color: white;
+    float: left;
+    height: 40px;
+}
+.mail{
+    width: 24px;
+    height: 24px;
+    background: url('./images/mail-24px.png') center no-repeat;
+    padding: 16px 20px 16px 20px;
+    float: left;
+    background-color: white;
+    border: none;
+}
+.subscribe-form{
+    max-width: 380px;
+    height: 54px;
+}
+.input-email{
+    max-width: 252px;
+    height: 56px;
+    float: left;
+    box-sizing: border-box;
+    border: none;
+}
+.submit{
+    float: left;
+    width: 64px;
+    height: 56px;
+    background: url('./images/arrow_forward-24px.png') no-repeat center ;
+    background-color: #FFE180;
+    box-sizing: border-box;
+    border: none;
+}
+.footer-box{
+    width: 100%;
+    background-color: #EAF0ED;
+}
+.footer{
+    max-width: 780px;
+    height: 281px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer-logo{
+    width: 122px;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.footer-data{
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    bottom: 92px;
+    color: #3F5D45;
+    font-weight: bold;
+}
+.icon3{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 30px;
+}
+.icon4{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+.footer-title1{
+    font-size: 18px;
+    font-weight: bold;
+    width: 30px;
+    color: #3F5D45;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.footer-title2{
+    font-size: 18px;
+    font-weight: bold;
+    width: 30px;
+    color: #3F5D45;
+    position: absolute;
+    top: 40px;
+    right: 36px;
+}
+.footer-title3{
+    color: #3F5D45;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    font-weight: bold;
+}
+
+
+@media(max-width:940px){
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .header{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .header > a > img{
+        width: 100%;
+        height: auto;
+    }
+    .content-box{
+        flex-wrap: wrap;
+    }
+    .content{
+        justify-content: center;
+        padding-bottom: 120px;
+    }
+    .banner{
+        margin-bottom: 0;
+    }
+    .menu{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .menu li a{
+        width: 100%;
+    }
+    .item{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .page ul{
+        left: 50%;
+        margin-left: -150px;
+        bottom: 30px;
+    }
+    
+    .subscribe-box{
+        height: 200px;
+        padding-bottom: 30px;
+    }
+    .subscribe{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-email{
+        margin-bottom: 33px;
+        width: 276px;
+    }
+    .subscribe-form{
+        width: 315px;
+    }
+    .footer-box{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        height: 311px;
+    }
+    .footer-title1 , .footer-title2{
+        display: none;
+    }
+    .footer-logo{
+        top: 39px;
+        left: 30px;
+    }
+    .footer-data{
+        top: 105px;
+        left: 30px;
+    }
+    .icon3{
+        top: 210px;
+        left: 30px;
+    }
+    .icon4{
+        top: 210px;
+        left: 70px;
+    }
+    .footer-title3{
+        top: 265px;
+        left: 30px;
+    }
+}
+@media(max-width:538px){
+    .header{
+        justify-content: center;
+    }
+}
